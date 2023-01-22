@@ -1,6 +1,6 @@
-# IOT-RESEARCH-PAPER-REVIEW-1
+# IOT RESEARCH PAPER REVIEW - 1
 
-Research Paper: Role of IoT and Cloud Computing in Automated Assembly Modeling Systems
+Research Paper: <b>Role of IoT and Cloud Computing in Automated Assembly Modeling Systems</b>
 
 Student Name: Karunya Harikrishnan
 <br>
