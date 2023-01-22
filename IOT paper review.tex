@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+ \usepackage{graphicx}
+ \usepackage{titling}
+
+ \title{Role of IoT and Cloud Computing in Automated Assembly Modeling Systems
+}
+\author{Karunya Harikrishnan}
+\date{22 December 2023}
+ 
+ \usepackage{fancyhdr}
+\fancypagestyle{plain}{%  the preset of fancyhdr 
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot[R]{\includegraphics[width=2cm]{KULEUVEN_GENT_RGB_LOGO.png}}
+    \fancyfoot[L]{\thedate}
+    \fancyhead[L]{IoT  Academic Research Paper Review}
+    \fancyhead[R]{\theauthor}
+}
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 1em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1em%
+    %{\large \@date}%
+  \end{center}%
+  \par
+  \vskip 1em}
+\makeatother
+
+\usepackage{lipsum}  
+\usepackage{cmbright}
+
+\begin{document}
+
+\maketitle
+
+\noindent\begin{tabular}{@{}ll}
+    Student Name: & Karunya HariKrishnan\\
+    Register Number: & 21011101059
+    
+     
+\end{tabular}
+
+\section*{Summary:}
+Assembly model is the digital representation of an assembled product of multiple parts and components that helps simulate and analyze the behaviour and functionality of the product. Assembly model systems are computer-aided design (CAD) systems that are specifically designed for creating, editing, and analyzing assembly models. They typically provide a wide range of tools and features for creating, editing, and analyzing assembly models. 
+Examples include: SolidWorks, CATIA, and more.
+
+IoT has the potential to greatly impact the manufacturing sector by providing a way to connect and collect data from various devices and machines within a factory. This data can then be used to improve efficiency, reduce downtime, and optimize production processes, wherein the present  scenario is presented with the challenge of  increased use of automation and advanced technologies has led to more complex production processes and a greater need for real-time data and decision-making.
+
+The objective of this paper was to integrate IoT and cloud computing systems into a conventional assembly modeling system that helps it evolve
+into an advanced system, which is capable of dealing with complexity,
+and changes automatically.
+
+\section*{The Proposed Solution and its methodology:}
+The proposed solution for an automated assembly modeling system includes utilizing a modularized architecture for robustness, reliability, flexibility, and expandability, incorporating object-oriented templates for easy interface and reuse of system components, and implementing automated algorithms for efficient assembly planning through the retrieval of relational assembly matrices.
+
+\subsection{Methodology:}
+\subsubsection{Object Oriented Model Templates:}
+It is beneficial to have a modularized product structure, where components in assembly are not tightly connected, allowing participants to modify and maintain their own models without affecting the overall structure and is achieved by exploiting IoT's potential to link multiple resources. Using an object-oriented model template also simplifies product development by reducing the number of interactions required. This template includes basic elements, relations, constraints and assembly sequence for a product family. The assembly template is based on the physical connections between parts and defined separately for every assembly model.
+
+\subsubsection{Algorithms Proposed To Automate Assembly Modeling:}
+For assembly modeling, the key tasks involve defining the assembly relations from existing CAD models automatically. To achieve this, algorithms are proposed to automatically retrieve the matrices for these relations and thus automating the most crucial part of the said solution.
+
+\textbf{1) Matrix for Assembly Relations:}
+
+ The most important information in a model template for the product assembly is the connection relations of parts. To retrieve it from the model template, a matrix for assembly
+relations is defined as follows:
+
+
+
+\section*{Objectives}
+\lipsum[3-3]
+
+\section*{Plan}
+\lipsum[4-4]
+
+
+
+\end{document}
