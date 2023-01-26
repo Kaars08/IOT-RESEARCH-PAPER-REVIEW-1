@@ -16,4 +16,3 @@ Semester: 4
 
 <hr>
 
-<b><h2>Download PDF:</b></h2> [21011101059_ AI&DS A_Karunya Harikrishnan.pdf](https://github.com/Kaars08/IOT-RESEARCH-PAPER-REVIEW-1/files/10474848/21011101059_.AI.DS.A_Karunya.Harikrishnan.pdf)
